@@ -6,9 +6,9 @@ Tässä tehtävässä toteutettiin Containerlab-ympäristön monitorointi käytt
 
 Laitteiden valvontaa varten asensin web1-palvelimelle Node Exporter -agentin, joka kerää tietoa muun muassa prosessorin ja muistin tilasta. Latasin agentin ohjelmapaketin GitHubista, purin sen ja käynnistin palvelun toimimaan portissa 9100. Tämän asennuksen myötä palvelin alkoi tuottaa laitteistotason mittaustietoa, jota Grafana hyödyntää grafiikkana.
 
-![Metrics](reports/images/kuva3.2a.png)
+![Metrics](images/kuva3.2a.png)
 
-![Metrics 2](reports/images/kuva3.2b.png)
+![Metrics 2](images/kuva3.2b.png)
 
 3. Prometheus
 
@@ -16,7 +16,7 @@ Tarkistin Prometheuksen tilan osoitteesta http://localhost:9090. Valitsin valiko
 
 Kuvassa näkyy, että web1 ja db1 ovat tilassa UP. Tämä tarkoittaa, että Prometheus saa haettua tiedot onnistuneesti molemmilta palvelimilta.
 
-![Targets](reports/images/kuva3.3.png)
+![Targets](images/kuva3.3.png)
 
 4. Dashboard
 
@@ -28,9 +28,9 @@ Disk Usage %
 Network Receive
 Network Transmit
 
-![Dashboard](reports/images/kuva3.4.png)
+![Dashboard](images/kuva3.4.png)
 
-![Dashboard](reports/images/kuva3.5.png)
+![Dashboard](images/kuva3.5.png)
 
 5. Kuormitustesti
 
@@ -38,7 +38,7 @@ Testasin järjestelmää aiheuttamalla kuormitusta web1-palvelimelle stress-ng j
 
 Kuormitustestin aikana CPU-kuorma nousi selkeästi lähelle 100 % ja levytilan käyttö kasvoi testitiedoston luomisen myötä, mikä näkyi heti reaaliaikaisina piikkeinä Grafanassa.
 
-![Load test](reports/images/kuva3.6.png)
+![Load test](images/kuva3.6.png)
 
 6. SNMP vs Prometheus
 
