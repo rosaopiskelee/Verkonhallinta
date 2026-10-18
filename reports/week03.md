@@ -67,3 +67,5 @@ Lisäisin procs running -mittarin, koska siitä näkee heti, jos jokin sovellus 
 
 Miten monitorointitiedosta voisi olla hyötyä vianetsinnässä?
 Jos yhteys katkeaa, verkkoliikenteen grafiikka tippuu heti nollaan, ja siitä näkee suoraan tarkan kellonajan, milloin nettiyhteys meni poikki.
+
+Koska käytetyt ohjelmistot olivat uusia, hyödynsin tekoälyä termien ymmärtämiseen ja Dashboardin käytön opetteluun.
