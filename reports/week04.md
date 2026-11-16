@@ -1,3 +1,7 @@
+Verkonhallinta - Viikko 04 Raportti
+
+Ansible
+
 Johdanto
 
 Infrastructure as Code tarkoittaa, että verkkoympäristöä voidaan hallita koodin avulla. Tehtäviä voidaan automatisoida ja tehdä usealla koneella yhtä aikaa. 

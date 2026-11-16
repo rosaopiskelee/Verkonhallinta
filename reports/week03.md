@@ -1,3 +1,7 @@
+Verkonhallinta - Viikko 03 Raportti
+
+Monitoring
+
 1. Johdanto
 
 Tässä tehtävässä toteutettiin Containerlab-ympäristön monitorointi käyttämällä Prometheus- ja Grafana-työkaluja.Tavoitteena oli rakentaa järjestelmä, joka kerää reaaliaikaista tietoa verkon tilasta ja visualisoi sen grafiikaksi.

@@ -1,3 +1,7 @@
+Verkonhallinta - Viikko 02 Raportti
+
+SNMP
+
 1. Johdanto
 Tässä tehtävässä tutustuttiin SNMP-protokollaan. SNMP on verkonhallintaprotokolla, jonka avulla voidaan kerätä tietoa verkon laitteista ja valvoa niiden tilaa.
 
